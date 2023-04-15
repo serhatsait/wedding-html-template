@@ -30,30 +30,3 @@ To override the stock image, you have two options:
 ### Details
 
 The template is initialized with a few "Details" sections (When, Location, Lodging, etc). Change these to whatever you'd like using the HTML.
-
-### Iconography
-
-The icons are provided by [FontAwesome](https://fontawesome.com/icons?d=gallery).
-
-#### Icon Instructions
-
-To add/change icons, find the icon you like on their page and then use the following syntax to insert:
-
-```<i class="fas fa-[ICON ID HERE]"></i>```
-
-#### Versioning
-
-I would've liked to include this library using a CDN instead of including the files locally but FontAwesome requires an email address to use their CDN so you're on own configuring that.
-
-### RSVP
-
-The template comes with a blank RSVP section as everyone likes to do this differently (and not many people create their own methods of sending data).
-
-I recommend creating the RSVP in Google Forms and embedding the form in an iFrame (provided by commented out). However, your free to handle this however you'd like.
-
-## Technical Details
-
-This template makes use of a few external scripts but doesn't rely on any build scripts or anything like that. Big thanks to the following:
-
-- [FontAwesome](https://fontawesome.com) - Iconography
-- [Google Fonts](https://fonts.google.com/) - Fonts (Caveat and Quicksand)
